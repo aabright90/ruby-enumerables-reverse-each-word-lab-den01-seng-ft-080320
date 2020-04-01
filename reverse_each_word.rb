@@ -1,4 +1,3 @@
 def reverse_each_word(string)
-  arr = [string]
-  arr.reverse.flatten
+  string.each
 end

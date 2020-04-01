@@ -1,4 +1,6 @@
 def reverse_each_word(string)
-arr = []
- puts string.split(" ")
+  arr = []
+string.split(" ").each do |char|
+  arr << char.reverse
+  end
 end

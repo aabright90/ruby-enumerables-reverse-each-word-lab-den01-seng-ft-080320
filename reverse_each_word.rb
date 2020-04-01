@@ -1,4 +1,6 @@
 def reverse_each_word(string)
-puts string.to_a    
-
+arr = []
+arr << string.split(" ")    
+puts arr
+   
 end
